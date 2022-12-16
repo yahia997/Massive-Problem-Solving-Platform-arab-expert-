@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+Sitemap: https://arab-expert.herokuapp.com/sitemap_home.xml
+Sitemap: https://arab-expert.herokuapp.com/sitemap_challenges.xml
+Sitemap: https://arab-expert.herokuapp.com/sitemap_tops.xml
+Sitemap: https://arab-expert.herokuapp.com/sitemap_auth.xml
+Sitemap: https://arab-expert.herokuapp.com/sitemap_all.xml

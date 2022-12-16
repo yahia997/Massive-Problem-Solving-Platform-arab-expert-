@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+html, body {
+    position: relative;
+    overflow-x: hidden;
+}
+html {
+    overflow-y: scroll;
+}
+:root {
+    --green: #00e472;
+    --body: #181818;
+    --all: white;
+    --easy: var(--bs-teal);
+    --normal: var(--bs-primary);
+    --hard: var(--bs-orange);
+    --very-hard: var(--bs-red);
+    --loved: rgb(251, 255, 0);
+}
+body {
+    background-color: var(--body);
+    overflow: hidden;
+}
+.g {
+    color: var(--green);
+}
+.ff-code {
+    font-family: 'Source Code Pro', monospace !important;
+}
+nav {
+    background-color: #2e2e2e;
+    position: fixed;
+    width: 100%;
+    z-index: 99999999 !important;
+}
+.ltr {
+    direction: ltr !important;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+.nav-logo {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    width: 100px !important;
+    cursor: pointer;
+}
+.nav-links {
+    transition: all 0.3s ease;
+    color: #dfdfdf;
+}
+.nav-links:hover {
+    color: rgb(173, 173, 173);
+}
+.signin, .login {
+    white-space: nowrap !important;
+}
+.login {
+    transition: all 0.3s ease;
+    color: var(--green);
+}
+.login:hover {
+    color: #00c563;
+}
+.signin {
+    border-radius: 5px;
+    background-color: var(--green);
+    transition: all 0.3s ease;
+    color: #2e2e2e;
+}
+.signin:hover {
+    background-color: #00c563;
+    color: #2e2e2e;
+}
+.ham-btn {
+    border-radius: 5px;
+    border: 1px solid #7e7e7e;
+}
+.ham {
+    transition: all 0.3s ease;
+    width: 100%;
+    position: fixed;
+    top: -100%;
+    background-color: #2e2e2e;
+    border-bottom: 2px solid var(--green);
+    z-index: 999999 !important;
+}
+.open {
+    top: 61px;
+}
+.top {
+    padding-top: 61px;
+}
+.btn-2 {
+    color: var(--green);
+    transition: all 0.3s ease;
+    border: 1px solid var(--green);
+    border-radius: 5px;
+}
+.btn-2:hover {
+    background-color: var(--green);
+    color: #181818 !important;
+}
+.all {
+    border: 1px solid var(--all) !important;
+    color: var(--all) !important;
+}
+.all:hover {
+    background-color: var(--all) !important;
+}
+.easy {
+    border: 1px solid var(--easy) !important;
+    color: var(--easy) !important;
+}
+.easy:hover {
+    background-color: var(--easy) !important;
+}
+.normal {
+    border: 1px solid var(--normal) !important;
+    color: var(--normal) !important;
+}
+.normal:hover {
+    background-color: var(--normal) !important;
+}
+.hard {
+    border: 1px solid var(--hard) !important;
+    color: var(--hard) !important;
+}
+.hard:hover {
+    background-color: var(--hard) !important;
+}
+.very-hard {
+    border: 1px solid var(--very-hard) !important;
+    color: var(--very-hard) !important;
+}
+.very-hard:hover {
+    background-color: var(--very-hard) !important;
+}
+.loved {
+    border: 1px solid var(--loved) !important;
+    color: var(--loved) !important;
+}
+.loved:hover {
+    background-color: var(--loved) !important;
+}
+.challenge {
+    background-color: #2e2e2e;
+    cursor: pointer;
+    user-select: none;
+    border-right: 7px solid #6c757d;
+}
+.challenge svg {
+    width: 40px !important;
+    height: 40px !important;
+}
+.challenge h5 {
+    color: rgb(214, 214, 214);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.easy-challenge {
+    border-right: 7px solid var(--easy);
+}
+.normal-challenge {
+    border-right: 7px solid var(--normal);
+}
+.hard-challenge {
+    border-right: 7px solid var(--hard);
+}
+.very-hard-challenge {
+    border-right: 7px solid var(--very-hard);
+}
+.done {
+    display: block;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+}
+.flag {
+    color: #cccccc;
+}
+.admin-textarea, .admin-inputو .admin-textarea:focus, .admin-input:focus {
+    caret-color: black;
+    background-color: #d5d5d5 !important;
+}
+ul {
+    list-style-type: square;
+}
+ul li::marker {
+    color: var(--green);
+}
+button:disabled,
+button[disabled],
+button:disabled:hover,
+button[disabled]:hover {
+    background-color: #2e2e2e !important;
+    color: #b8b7b7 !important;
+}
+@media (max-width: 992px) {
+    .challenge h5 {
+        height: 50px;
+    }
+}
