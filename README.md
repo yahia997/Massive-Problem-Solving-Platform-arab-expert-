@@ -1,13 +1,21 @@
-# Massive-Problem-Solving-Platform(arab-expert)
-This is the largest project I have ever done up to now,It contains plenty of comlex actions, You can login in with your google email and solve some challenges in javascript, You can write your code on the website and compile it and see your logs and finally your can run your code and see what is write and what is wrong and if all test cases are right you will get points, there is a rank page according to points,You can choose the hardness of the challenges, you can resize the screen, there is a blog on this website, there is a dashboard for admin to add challenges and articles.
+<p align="center">
+<img src="https://github.com/yahia997/Massive-Problem-Solving-Platform-arab-expert-/blob/master/front-end/src/images/%D8%B9%D8%B1%D8%A8%20expert%20dark.svg" 
+width="250"></img>
+</p>
 
-<h3>technologies:</h3>
-HTML<br>
-CSS<br>
-Javascript<br>
-React.js<br>
-Node.js<br>
-Express.js<br>
-MongoDB<br>
-Mongoose<br>
-Bootstrap 5
+# Massive Problem Solving Platform (arab-expert)
+Arab Expert is a problem solving platform for solving coding challenges in Javascript ,It is all in Arabic , you can create an account or login with your Google account, then you can go to challenge section and  choose challenge to solve, you can filter challenges according to hardness there are easy, normal, hard and very hard levels, when you open challenge page you can write, compile and see your logs and run your code, at the right side there is a description for the challenge and test cases , when you solve the problem you will get points and it differs according to hardness, there is a rank page containing users sorted according to their points, there is a home page also, there is a blog page contains some articles, you can click on user icon to go to user page to see your points and badges and what problems you had solved before, the final page is admin page to manage the site.
+
+### technologies:
+- HTML   
+- CSS   
+- Javascript   
+- React.js   
+- Node.js   
+- Express.js   
+- MongoDB   
+- Mongoose   
+- Bootstrap 5
+
+### Live url
+https://arab-expert.cyclic.app/
